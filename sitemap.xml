@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.luxembourgeus.se/</loc>
+    <lastmod>2024-06-04T20:10:28+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.luxembourgeus.se/books.html</loc>
+    <lastmod>2024-05-29T20:42:53+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.luxembourgeus.se/notes.html</loc>
+    <lastmod>2024-05-29T20:43:02+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+</urlset>

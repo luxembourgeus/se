@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tayfun Luxembourgeus</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/dot.png" type="image/png">
+
+    <!-- Meta Tags -->
+    <meta name="description" content="Doctor of film and literary studies, scriptwriter, producer, and more.">
+    <meta name="google-site-verification" content="6B9O37HqHh8m9Ynjd0gtiSX6HVMc0bJah5-O-cV0uvM" />
+
+    <!-- Stylesheets -->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!-- Google Fonts Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://www.luxembourgeus.se">
+
+    <!-- Internal Styles -->
+    <style>
+        html, body {
+            height: 100%; /* Ensure both html and body take up the full height */
+            margin: 0; /* Remove any default margin */
+            padding: 0; /* Remove any default padding */
+            background-color: #fff; /* Set background color to gray */
+        }
+
+        a,
+        a:link,
+        a:visited,
+        a:active {
+            text-decoration: none;
+            color: #000;
+            cursor: pointer !important;
+        }
+
+        a:hover {
+            cursor: pointer !important;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            -webkit-font-smoothing: antialiased;
+            position: relative;
+            height: auto;
+            font-weight: normal;
+        }
+
+        #home {
+            font-family: "Outfit", sans-serif;
+            font-size: 212px;
+            line-height: 0.93em;
+            padding: 120px 0px 120px 75px; /* top right bottom left */
+            margin: 0 0 0px 0; /* top right bottom left */
+            width: calc(100% - 150px);
+            height: auto;
+            background-color: #fff;
+            z-index: 5;
+            position: relative;
+            letter-spacing: -0.05em;
+        }
+
+        #home a:link,
+        #home a:visited,
+        #home a:active {
+            color: #999;
+        }
+
+        #home a:hover {
+            text-decoration: none;
+            color: #FF2400;
+        }
+
+        .hover-effect:hover::after {
+            content: "(neither white, nor arrogant, nor ignorant enough to be an expat)";
+            white-space: wrap;
+            color: #FF2400;
+            position: relative;
+            background-color: transparent;
+            padding: 0px;
+            border: 0px solid #000;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+        }
+
+        .red-on-hover:hover {
+            color: #FF2400;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="home" class="animated fadeInUp">
+        hi.<br>this is tayfun luxembourgeus.<br><a class="red-on-hover" href="https://www.researchgate.net/profile/Tage-Luxembourgeus">doctor</a> of film and literary studies, <a class="red-on-hover" href="https://www.imdb.com/name/nm11304602/">scriptwriter</a>, producer, picky cinephile, obsessive minimalist, and immigrant<span class="hover-effect" style="color: #999;">*</span>—among other things.<br>questions of identity, belonging, home(lessness), and the politics of seeing have been pestering me for years, both personally and academically.<br>feel free to <a class="red-on-hover" href="mailto:email@luxembourgeus.se">contact</a> me, or take a look at the <a class="red-on-hover" href="books.html">books</a> i have written, before you give up.<br>i even have some <a class="red-on-hover" href="notes.html">notes</a>, though i am not yet sure what they are for.
+    </div>
+
+    <!-- Load jQuery first -->
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <!-- Load FitText after jQuery -->
+    <script src="js/jquery.fittext.js"></script>
+
+    <script type="text/javascript">
+        $("#home").fitText(0.81, { minFontSize: '30px', maxFontSize: '350px' });
+    </script>
+
+    <!-- External JS files -->
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+
+</body>
+</html>
